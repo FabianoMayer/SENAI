@@ -1,3 +1,4 @@
+// Algoritmo soma de quatro números
 programa {
 funcao inicio() // Define a função "inicio" que será executada ao iniciar o programa
 {
