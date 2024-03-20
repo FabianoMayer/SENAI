@@ -1,0 +1,16 @@
+if ($ano >= 1950 && $ano <= 1999) {
+    $sql = "INSERT INTO veículos_decada90 (placa_veiculo, modelo, marca, cor, ano, ar_cond, dir_hidraulica, dir_eletrica, portas, tipo_carro, importado, cambio, km, combustivel) VALUES ('$placa_veiculo', '$modelo', '$marca', '$cor', $ano, $ar_cond, $dir_hidraulica, $dir_eletrica, $quantidade_portas, $tipo_carro, $importado, $cambio, $km, $combustivel)";
+}
+
+if ($ano >= 2000 && $ano <= 2009) {
+    $sql = "INSERT INTO veículos_decada2000 (placa_veiculo, modelo, marca, cor, ano, ar_cond, dir_hidraulica, dir_eletrica, portas, tipo_carro, importado, cambio, km, combustivel) VALUES ('$placa_veiculo', '$modelo', '$marca', '$cor', $ano, $ar_cond, $dir_hidraulica, $dir_eletrica, $quantidade_portas, $tipo_carro, $importado, $cambio, $km, $combustivel)";
+}
+
+if ($ano >= 2010 && $ano <= 2019) {
+    $sql = "INSERT INTO veículos_decada2010 (placa_veiculo, modelo, marca, cor, ano, ar_cond, dir_hidraulica, dir_eletrica, portas, tipo_carro, importado, cambio, km, combustivel) VALUES ('$placa_veiculo', '$modelo', '$marca', '$cor', $ano, $ar_cond, $dir_hidraulica, $dir_eletrica, $quantidade_portas, $tipo_carro, $importado, $cambio, $km, $combustivel)";
+}
+
+if ($ano >= 2020 && $ano <= 2024) {
+    $sql = "INSERT INTO veículos_decada2020 (placa_veiculo, modelo, marca, cor, ano, ar_cond, dir_hidraulica, dir_eletrica, portas, tipo_carro, importado, cambio, km, combustivel) VALUES ('$placa_veiculo', '$modelo', '$marca', '$cor', $ano, $ar_cond, $dir_hidraulica, $dir_eletrica, $quantidade_portas, $tipo_carro, $importado, $cambio, $km, $combustivel)";
+}
+
